@@ -1,0 +1,19 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    padding-top: 145px;
+    padding-bottom: 225px; 
+    background-image: url("https://s3-alpha-sig.figma.com/img/95ee/d3c2/88bcc8d41290fbc9daab135de58da019?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GWLIlJuBQTQmLxe6Dxp9zwhRo45rFK5PGbgzgV5ZAy9fBTtYcMvSwkLrE9cT7mEJQCeSX3SGkL6WI~qos3BmMVkj9U-cnwcbrzO2EAJ49A-6yaC6Pv5JCJjI-ngPpDt2qbZzyv3qcNJpS4SKuD-ml3ZxosCiAZryksqGcXolFhS1K2caPUDbYAEbsdgivmB12oSyKHXAWgVeYM6NyFF7K0F2lufOP2INawVmGsbzjHZ-mD4fjbLQvn1KDHXNQqvA6B0Qne3NWTI3UqAmp4Hm1rII7oPfBW5FGc5TG8qDhW0rENILt9gxM8Lm3kSXrNWR9XdWhRmPQB6H7HARKe1NaQ__");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+@media(max-width: 768px) {
+    .main {
+        background-size: 75%; 
+    }
+}

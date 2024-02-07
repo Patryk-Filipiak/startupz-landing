@@ -1,0 +1,28 @@
+.values {
+    font-family: 'Circular Std', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    justify-content: stretch;
+    padding: 145px 11vw 196px 8.5vw;
+    background-color: rgba(251, 250, 250, 1); 
+}
+
+.values__header {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+
+.values__title {
+    padding: 18px 0;
+}
+
+.values__list {
+    list-style: none;
+}
+
+.values__image {
+        width: 75px;
+        height: 88px;;
+}

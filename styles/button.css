@@ -1,0 +1,47 @@
+.button { 
+    border: 1px solid var(--complementary-green);
+    color: var(--complementary-green);
+    background-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-family: 'Circular Std';
+    font-size: 18px; 
+    padding: 0 34.5px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 32.5px;
+    white-space: nowrap;
+    margin: 0 2px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--complementary-green);
+    color: rgba(251, 255, 255, 1);
+}
+
+.button--solid {
+    background-color: var(--complementary-green); 
+    color: rgba(255, 255, 255, 1);
+}
+
+.button--solid:hover {
+    background-color: rgba(251, 255, 255, 1);
+    color: var(--complementary-green);
+}
+
+.button--contact {
+    color: rgba(251, 251, 250, 1);
+    border: 1px solid rgba(61, 79, 92, 1);
+    background-color: rgba(61, 79, 92, 1);
+}
+
+.button--contact:hover {
+    background-color: rgba(251, 255, 255, 1);
+    color: rgba(61, 79, 92, 1);
+}
+
+.button:active {
+    transform: skewX(5deg) rotate(-1deg) scale(0.9);
+}

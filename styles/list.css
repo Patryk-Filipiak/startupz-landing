@@ -1,0 +1,32 @@
+.list {
+    margin-top: 80px;
+    list-style: none;
+    counter-reset: list-counter;
+    display: flex;
+    flex-wrap: wrap;
+    gap: Max(5vh, 5vw); 
+}
+
+  .list__title {
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+  }
+
+  .list__title::before {   
+    content: "0" counter(list-counter)". ";
+    width: 50px;
+    padding-bottom: 30px;
+    counter-increment: list-counter; 
+    border-bottom: 1px solid rgba(61, 79, 92, 1);
+
+  }  
+
+  .list__text {
+    font-family: 'Circular Std';
+    font-size: 30px; 
+    line-height: 38px;
+    letter-spacing: -0.01em; 
+    color: rgba(61, 79, 92, 1);
+  }
+ 

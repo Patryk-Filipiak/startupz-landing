@@ -1,0 +1,49 @@
+@import './styles/title.css';
+@import './styles/list.css';
+@import './styles/header.css';
+@import './styles/who-we-are.css';
+@import './styles/footer.css';
+@import './styles/hiring.css';
+@import './styles/values.css';
+@import './styles/contact.css';
+@import './styles/works.css';
+@import './styles/button.css';
+@import './styles/main.css';
+@import './styles/slogan.css';
+@import './styles/we-love.css';
+
+:root {
+    --complementary-green: rgba(70, 184, 200, 1);
+    --primary-orange: rgba(251, 137, 88, 1); 
+    --base-padding: clamp(12px, 8.5vw, 120px);
+}
+
+@media(max-width: 768px) {
+    :root {
+        --base-padding: clamp(12px, 3vw, 120px);
+    }
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    font-weight: 400;
+    src: url('./CircularStd-Medium.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    font-weight: 700;
+    src: url('./CircularStd-Bold.woff') format('woff'); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
